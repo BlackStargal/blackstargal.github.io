@@ -45,6 +45,8 @@ Now we fuzz in this directory for any file with the extension  **cgi, sh, pl, py
 
 After some research I discovered that cgi scripts can be vulnerable to [shellsock](https://antonyt.com/blog/2020-03-27/exploiting-cgi-scripts-with-shellshock) so we try to change the **User-Agent**.
 
+# [](#header-2)Explotation
+
 We use the following command and we can execute the command **id**, so we try to get a reverse shell.
 
 ```bash
@@ -65,6 +67,8 @@ script /dev/null -qc /bin/bash #/dev/null is to not store anything
 We get the **user flag** from the home directory:
 
 ![user flag](/assets/shocker/userflag.png)
+
+# [](#header-2)Privilege Escalation
 
 Using the command **sudo -l** we can see that we can execute perl as **root**.
 
