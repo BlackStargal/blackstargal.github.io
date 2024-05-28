@@ -3,6 +3,8 @@ title: Shocker Writeup(Easy)
 published: true
 ---
 
+![machine logo](/assets/shocker/logo.png)
+
 # [](#header-2)Recognition
 
 First of all we do a scan with nmap:
