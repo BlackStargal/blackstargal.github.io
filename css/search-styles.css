@@ -1,0 +1,45 @@
+/* Estilos para el contenedor de búsqueda */
+#search-container {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Estilos para el input de búsqueda */
+#search-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #B8E956; /* Verde oscuro */
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: #B8E956; /* Verde un poco más claro al enfocar */
+}
+
+/* Estilos para la lista de resultados */
+#results-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+#results-container li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#results-container li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#results-container li a:hover {
+  color: #B8E956; /* Verde oscuro al pasar el cursor */
+}
+
