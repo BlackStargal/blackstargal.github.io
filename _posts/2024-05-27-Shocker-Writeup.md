@@ -25,7 +25,7 @@ sudo nmap -sCV -p80,2222 10.129.50.136
 
 The scan reports the following information:
 
-![Escaneo nmap](/assets/shocker/nmapScan.png)
+![nmap scan](/assets/shocker/nmapScan.png)
 
 We can see that the **ssh** version is vulnerable to **user enumeration(CVE-2016-6210)** and there is a **web service** running with Apache.
 

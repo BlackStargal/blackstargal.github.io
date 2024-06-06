@@ -25,7 +25,7 @@ sudo nmap -sCV -p22,80 10.129.229.14
 
 The scan reports the following information:
 
-![Escaneo nmap](/assets/apocalyst/nmapScan.png)
+![nmap scan](/assets/apocalyst/nmapScan.png)
 
 We can see that the **ssh** version is vulnerable to **user enumeration(CVE-2016-6210)** and there is a **web service** running with Apache and using the CMS **Wordpress 4.8**.
 
