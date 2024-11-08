@@ -1,6 +1,6 @@
 ---
 title: Cicada Writeup(Easy)
-published: false
+published: true
 ---
 
 ![machine logo](/assets/cicada/logo.png)
